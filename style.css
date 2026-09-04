@@ -147,13 +147,13 @@ ul {
   margin: 0 auto 3rem auto;
 }
 
-/* TOPBAR & HEADER (Clean Light Theme & Soft Warm Cream) */
+/* TOPBAR & HEADER (Rich Brown Topbar) */
 .topbar {
-  background-color: #fefce8;
-  border-bottom: 1px solid #fef08a;
+  background-color: #4a2c11;
+  border-bottom: 1px solid #341e0b;
   padding: 0.55rem 0;
   font-size: 0.825rem;
-  color: #475569;
+  color: #fef3c7;
 }
 
 .topbar-wrapper {
@@ -167,7 +167,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  color: #334155;
+  color: #fef3c7;
   font-weight: 600;
 }
 
