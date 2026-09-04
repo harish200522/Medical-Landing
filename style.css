@@ -342,9 +342,9 @@ ul {
 /* HOME SECTION HERO BANNER */
 .hero-banner {
   position: relative;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.65) 0%, rgba(240, 250, 244, 0.58) 50%, rgba(255, 255, 255, 0.62) 100%),
-              url('images/hero_banner.jpg') center/cover no-repeat;
-  padding: 6.5rem 0 7.5rem 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.25) 60%, rgba(255, 255, 255, 0) 100%),
+              url('images/hero_banner.jpg') center bottom / cover no-repeat;
+  padding: 5.5rem 0 17rem 0;
   border-bottom: 1px solid var(--slate-200);
 }
 
@@ -899,7 +899,7 @@ textarea.form-control {
   }
 
   .hero-banner {
-    padding: 4.5rem 0 5.5rem 0;
+    padding: 3.5rem 0 13rem 0;
   }
 
   .hero-title {
