@@ -147,13 +147,13 @@ ul {
   margin: 0 auto 3rem auto;
 }
 
-/* TOPBAR & HEADER (Deep Botanical Green & Mustard Contrast) */
+/* TOPBAR & HEADER (Rich Dark Chocolate & Mustard Contrast) */
 .topbar {
-  background-color: #002715;
+  background-color: #24120a;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   padding: 0.55rem 0;
   font-size: 0.825rem;
-  color: #e2e8f0;
+  color: #f3e8e2;
 }
 
 .topbar-wrapper {
@@ -167,7 +167,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  color: #cbd5e1;
+  color: #e6d5cb;
   font-weight: 500;
 }
 
@@ -236,8 +236,8 @@ ul {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #00361c;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+  background-color: #3b1e11;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   border-bottom: 3px solid #eab308;
 }
 
