@@ -147,13 +147,13 @@ ul {
   margin: 0 auto 3rem auto;
 }
 
-/* TOPBAR & HEADER (Rich Dark Chocolate & Mustard Contrast) */
+/* TOPBAR & HEADER (Clean Light Theme & Soft Warm Cream) */
 .topbar {
-  background-color: #24120a;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: #fefce8;
+  border-bottom: 1px solid #fef08a;
   padding: 0.55rem 0;
   font-size: 0.825rem;
-  color: #f3e8e2;
+  color: #475569;
 }
 
 .topbar-wrapper {
@@ -167,8 +167,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  color: #e6d5cb;
-  font-weight: 500;
+  color: #334155;
+  font-weight: 600;
 }
 
 .topbar-info span {
@@ -223,12 +223,12 @@ ul {
 }
 
 .topbar-btn-business {
-  background-color: #d97706;
+  background-color: var(--slate-800);
   color: white;
 }
 
 .topbar-btn-business:hover {
-  background-color: #b45309;
+  background-color: var(--slate-900);
 }
 
 /* Main Navbar */
@@ -236,9 +236,9 @@ ul {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #3b1e11;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-  border-bottom: 3px solid #eab308;
+  background-color: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  border-bottom: 3px solid var(--green-primary);
 }
 
 .nav-wrapper {
@@ -258,10 +258,6 @@ ul {
   height: 56px;
   width: auto;
   object-fit: contain;
-  background-color: #ffffff;
-  padding: 6px 14px;
-  border-radius: var(--radius-sm);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   display: block;
   transition: var(--transition);
 }
@@ -323,7 +319,7 @@ ul {
 .nav-link {
   font-weight: 700;
   font-size: 1rem;
-  color: #ffffff;
+  color: var(--slate-800);
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -333,14 +329,14 @@ ul {
 }
 
 .nav-leaf {
-  color: #facc15;
+  color: var(--green-primary);
   font-size: 0.9rem;
   transition: transform 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #fef08a;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--green-primary);
+  background-color: var(--green-mint);
 }
 
 .nav-link:hover .nav-leaf {
